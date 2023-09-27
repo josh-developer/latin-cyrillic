@@ -1,0 +1,30 @@
+{
+  "name": "latin-cyrillic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "pre-publish": "tsc",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josh-developer/latin-cyrillic.git"
+  },
+  "keywords": [
+    "latin-cyrillic",
+    "latin",
+    "cyrillic",
+    "cyrillic-latin"
+  ],
+  "author": "JoshDeveloper | Umar Sadullayev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josh-developer/latin-cyrillic/issues"
+  },
+  "homepage": "https://github.com/josh-developer/latin-cyrillic#readme",
+  "dependencies": {
+  }
+}
