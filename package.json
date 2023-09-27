@@ -25,6 +25,7 @@
     "url": "https://github.com/josh-developer/latin-cyrillic/issues"
   },
   "homepage": "https://github.com/josh-developer/latin-cyrillic#readme",
-  "dependencies": {
+  "devDependencies": {
+    "typescript": "^5.2.2"
   }
 }
