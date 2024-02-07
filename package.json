@@ -1,11 +1,10 @@
 {
   "name": "latin-cyrillic",
-  "version": "2.0.0",
-  "description": "",
+  "version": "2.2.0",
+  "description": "Latin Cyrillic - Cyrillic Latin - latinToCyrillic('str') - cyrillicToLatin('str')",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "pre-publish": "tsc",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
