@@ -6,7 +6,6 @@ const alpha = [
   "D",
   "E",
   "Yo",
-  "Yo",
   "J",
   "Z",
   "I",
@@ -159,7 +158,6 @@ const alphaRus = [
   "Д",
   "Е",
   "Ё",
-  "Ë",
   "Ж",
   "З",
   "И",
@@ -253,19 +251,6 @@ const Eliser2 = (currentWord: string): string => {
           currentWord.charCodeAt(z) <= 1071
         ) {
           currentWord = currentWord.replace(/Ё/i, "YO");
-        } else {
-          currentWord = currentWord.replace(/Ё/i, "Yo");
-        }
-      }
-    } else if (currentWord[r] === "Ë") {
-      for (let z = r + 1; z < currentWord.length; z++) {
-        if (
-          currentWord.charCodeAt(z) >= 1040 &&
-          currentWord.charCodeAt(z) <= 1071
-        ) {
-          currentWord = currentWord.replace(/Ë/i, "YO");
-        } else {
-          currentWord = currentWord.replace(/Ë/i, "Yo");
         }
       }
     } else if (currentWord[r] === "Ц") {
