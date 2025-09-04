@@ -1,6 +1,6 @@
 {
   "name": "latin-cyrillic",
-  "version": "2.3.2",
+  "version": "2.3.4",
   "description": "Latin Cyrillic - Cyrillic Latin - latinToCyrillic('str') - cyrillicToLatin('str')",
   "main": "index.js",
   "types": "index.d.ts",
