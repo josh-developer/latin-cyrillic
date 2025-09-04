@@ -364,14 +364,14 @@ const Eliser2 = (currentWord: string): string => {
 
 export const latinToCyrillic = (originalMessage: string): string => {
   let CyrillicTranslated = "";
-  originalMessage = originalMessage.replace(/`/g, "'");
-  originalMessage = originalMessage.replace(/ʹ/g, "'");
-  originalMessage = originalMessage.replace(/ʻ/g, "'");
-  originalMessage = originalMessage.replace(/ʼ/g, "'");
-  originalMessage = originalMessage.replace(/ʽ/g, "'");
-  originalMessage = originalMessage.replace(/ˊ/g, "'");
-  originalMessage = originalMessage.replace(/ˋ/g, "'");
-  originalMessage = originalMessage.replace(/‘/g, "'");
+  originalMessage = originalMessage.replace(/`/g, "ʻ");
+  originalMessage = originalMessage.replace(/ʹ/g, "ʻ");
+  originalMessage = originalMessage.replace(/ʻ/g, "ʻ");
+  originalMessage = originalMessage.replace(/ʼ/g, "ʻ");
+  originalMessage = originalMessage.replace(/ʽ/g, "ʻ");
+  originalMessage = originalMessage.replace(/ˊ/g, "ʻ");
+  originalMessage = originalMessage.replace(/ˋ/g, "ʻ");
+  originalMessage = originalMessage.replace(/‘/g, "ʻ");
   originalMessage = originalMessage.replace(/Ye/g, "Е");
   originalMessage = originalMessage.replace(/YE/g, "Е");
   originalMessage = originalMessage.replace(/Yo/g, "Ё");
