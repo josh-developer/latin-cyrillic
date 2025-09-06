@@ -1,12 +1,12 @@
 {
   "name": "latin-cyrillic",
-  "version": "2.3.4",
+  "version": "2.3.5",
   "description": "Latin Cyrillic - Cyrillic Latin - latinToCyrillic('str') - cyrillicToLatin('str')",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run build && node dist/test.js"
   },
   "repository": {
     "type": "git",

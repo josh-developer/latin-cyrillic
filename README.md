@@ -1,7 +1,7 @@
-  Latin Cyrillic - Cyrillic Latin -
-  
+  IMPORTANT: This is for Uzbek-latin to Uzbek-cyrillic usage. Use it for this purpose only!
+    
   Usage:
 
- - latinToCyrillic('str') 
+ - latinToCyrillic('Salom O'zbekiston! A'lo!') -> Салом Ўзбекистон! Аъло!
  or
- - cyrillicToLatin('str')",
+ - cyrillicToLatin('Тошкентдан Хоразмгача 1100 километр.')" -> Toshkentdan Xorazmgacha 1100 kilometr.
